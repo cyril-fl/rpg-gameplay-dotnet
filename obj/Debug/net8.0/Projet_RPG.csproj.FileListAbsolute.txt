@@ -1,0 +1,14 @@
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/bin/Debug/net8.0/Projet_RPG
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/bin/Debug/net8.0/Projet_RPG.deps.json
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/bin/Debug/net8.0/Projet_RPG.runtimeconfig.json
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/bin/Debug/net8.0/Projet_RPG.dll
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/bin/Debug/net8.0/Projet_RPG.pdb
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.AssemblyInfoInputs.cache
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.AssemblyInfo.cs
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.csproj.CoreCompileInputs.cache
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.dll
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/refint/Projet_RPG.dll
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.pdb
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/Projet_RPG.genruntimeconfig.cache
+/Users/cyrilflambard/Devloppement/C#/Projet_RPG/obj/Debug/net8.0/ref/Projet_RPG.dll
