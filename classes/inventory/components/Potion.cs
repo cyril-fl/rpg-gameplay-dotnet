@@ -1,7 +1,6 @@
 using rpg_gameplay.classes.characters.components;
-using rpg_gameplay.classes.items.components;
 
-namespace rpg_gameplay.classes.items;
+namespace rpg_gameplay.classes.inventory.components;
 public class Potion : Item
 {
     public int Duration { get; }

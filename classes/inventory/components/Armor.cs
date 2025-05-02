@@ -1,6 +1,4 @@
-using rpg_gameplay.classes.items.components;
-
-namespace rpg_gameplay.classes.items;
+namespace rpg_gameplay.classes.inventory.components;
 
 public enum ArmorType
 {

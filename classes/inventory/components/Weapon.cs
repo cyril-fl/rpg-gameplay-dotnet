@@ -1,6 +1,5 @@
-using rpg_gameplay.classes.items.components;
+namespace rpg_gameplay.classes.inventory.components;
 
-namespace rpg_gameplay.classes.items;
 public enum WeaponType
 {
     GreatSword,

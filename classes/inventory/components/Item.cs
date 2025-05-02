@@ -1,4 +1,4 @@
-namespace rpg_gameplay.classes.items.components;
+namespace rpg_gameplay.classes.inventory.components;
 public class Item
 {
     public int Id { get; }
