@@ -4,7 +4,6 @@ public enum TribeType
 {
     Human,
     Elf,
-    Orc,
     Dwarf
 }
 public class Tribe: Archetype<TribeType> {
@@ -15,7 +14,7 @@ public class Tribe: Archetype<TribeType> {
 
 public class TribeFactory 
 {
-    public static Tribe Elf => new(TribeType.Elf, new StatList(
+    private static Tribe Elf => new(TribeType.Elf, new StatList(
         new Stat(80, 80), // HP
         new Stat(40, 40), // MP
         new Stat(15),     // STR
@@ -29,7 +28,7 @@ public class TribeFactory
 
     );
 
-    public static Tribe Human => new(TribeType.Human, new StatList(
+    private static Tribe Human => new(TribeType.Human, new StatList(
         new Stat(100, 100),
         new Stat(50, 50),
         new Stat(20),
@@ -41,19 +40,8 @@ public class TribeFactory
         new Stat(5)
     ));
 
-    public static Tribe Orc => new (TribeType.Orc, new StatList(
-        new Stat(60, 60),
-        new Stat(100, 100),
-        new Stat(10),
-        new Stat(20),
-        new Stat(10),
-        new Stat(5),
-        new Stat(15),
-        new Stat(25),
-        new Stat(5)
-    ));
-
-    public static Tribe Dwarf => new (TribeType.Dwarf, new StatList(
+    
+    private static Tribe Dwarf => new (TribeType.Dwarf, new StatList(
         new Stat(70, 70),
         new Stat(80, 80),
         new Stat(10),
@@ -69,13 +57,12 @@ public class TribeFactory
     {
         TribeType.Elf => Elf,
         TribeType.Human => Human,
-        TribeType.Orc => Orc,
         TribeType.Dwarf => Dwarf,
         _ => throw new ArgumentOutOfRangeException(nameof(type), type, null)
     };
 
     public static IEnumerable<Tribe> GetAll() => new[]
     {
-        Elf, Human, Orc, Dwarf
+        Elf, Human, Dwarf
     };
 }

@@ -69,15 +69,15 @@ public class StatList {
         Stat cha
     )
     {
-       Mp = hp;
-       Str = mp;
-       Int = str;
-       Agi = intel;
-       Con = agi;
-       Dex = con;
-       Wis = dex;
-       Cha = wis;
-       Hp = cha;
+       Hp = hp;
+       Mp = mp;
+       Str = str;
+       Int = intel;
+       Agi = agi;
+       Con = con;
+       Dex = dex;
+       Wis = wis;
+       Cha = cha;
     }
     
 }
